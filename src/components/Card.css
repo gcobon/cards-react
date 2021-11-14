@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 6rem;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 80%;
+  }
+}
